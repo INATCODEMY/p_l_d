@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PLANET SEARCH ENGINE</title>
+</head>
+<body>
+<input type="text" list="planet"id="search">
+<datalist>
+<option value="Mercury"></option>
+<option value="Venus"></option>
+<option value="Earth"></option>
+<option value="Mars"></option>
+<option value="Jupiter"></option>
+<option value="Saturn"></option>
+<option value="Uranus"></option>
+<option value="Neptune"></option>
+</datalist>
+<button onclick="on()">SEARCH</button>
+<div id = "result"></div>
+<script type="text/javascript">
+function on() {
+	// body...
+	var y = document.getElementById('result');
+	var x = document.getElementById('search');
+	switch(x.value){
+case "Mercury":
+y.innerHTML = "<h2>Mercury</h2><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/330px-Mercury_in_color_-_Prockter07_centered.jpg'width='200px'height='200px'><p>Mercury (0.4 AU (60 million km; 37 million mi) from the Sun) is the closest planet to the Sun and on average, all seven other planets.[79][80] The smallest planet in the Solar System (0.055 M⊕), Mercury has no natural satellites. Besides impact craters, its only known geological features are lobed ridges or rupes that were probably produced by a period of contraction early in its history.[81] Mercury's very tenuous atmosphere consists of atoms blasted off its surface by the solar wind.[82] Its relatively large iron core and thin mantle have not yet been adequately explained. Hypotheses include that its outer layers were stripped off by a giant impact, or that it was prevented from fully accreting by the young Sun's energy.</p>"
+	}
+}
+</script>
+</body>
+</html>
