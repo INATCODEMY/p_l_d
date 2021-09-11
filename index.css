@@ -22,6 +22,6 @@ display:none;
     box-shadow:5px 5px 20px 5px cyan;
     font-size: 22px;
     color:cyan;
-    height:400px;
+    height:80%;
     overflow-y:scroll ;
 }
