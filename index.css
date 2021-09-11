@@ -1,0 +1,27 @@
+#load{
+    visibility:;
+}
+#text_1{
+    color:blue;
+    font-weight:bold;
+    background-color:white;
+}
+body{
+    user-select:none;    background-image:url("https://dl.dropbox.com/s/016um864cmkfrnb/img_20210910_131117.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat ;
+    background-attachment:fixed;
+}
+#result{
+display:none;
+    margin:20px auto;
+    border-radius:15px;
+    width:90%;
+    backdrop-filter:blur(20px);
+    padding:10px;
+    box-shadow:5px 5px 20px 5px cyan;
+    font-size: 22px;
+    color:cyan;
+    height:400px;
+    overflow-y:scroll ;
+}
