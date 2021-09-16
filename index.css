@@ -19,9 +19,11 @@ display:none;
     height:400px;
     overflow-y:scroll ;
 }
-
-#td,#td_a{
+#table{
     width:100%;
+}
+#td,#td_a{
+    width:50%;
     margin:auto 5px;
     font-size:22px;
     border-bottom:2px solid white;
