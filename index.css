@@ -3,7 +3,7 @@ body{
     background:rgb(0,0,25);
     overflow-y:scroll;
     color:white;
-    font-size:20px;
+    font-size:22px;
     font-weight:bold;
 }
 #result{
@@ -21,7 +21,7 @@ display:none;
 }
 
 #td,#td_a{
-    width:50%;
+    width:100%;
     margin:auto 5px;
     font-size:18px;
     border-bottom:2px solid white;
