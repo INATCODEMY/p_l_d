@@ -1,0 +1,99 @@
+<!-- Images and Introductional part From Wikipedia-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"href="https://raw.githack.com/Hardik450/HJ/Hardik450/HJ.css">
+        
+    <title>Programming Languages Details</title>
+</head>
+<body>
+<div id="load"><load></load></div>
+<h2>Programming Languages Details</h2>
+<div><h3>Instructions:-</h3>
+    <ul>
+<li>This website is generally made for the beginners who are unable to decide which programming language they should have to learn first.</li><br />
+    <li>There is a small details about programming languages which will help the beginners to choose their first programming language according to their interest.</li><br />
+    <li>Select any programming language from the given options , then click on search button and know about its uses in various fields.</li><br />
+</ul>
+</div>
+<table><tr><td>
+<select id="text_1">
+<option>Select the Programming Language</option>
+<option value="Python"><img src="https://dl.dropbox.com/s/y17s92qf73379sw/screenshot_2021-09-09-10-54-19-37.jpg"width="50px"height="50px">Python</option>
+<option value="JavaScript">JavaScript</option>
+<option value="R">R</option>
+<option value="Java">Java</option>
+<option value="C++">C++</option>
+<option value="C#">C#</option>
+<option value="C">C</option>
+<option value="Ruby">Ruby</option>
+<option value="Kotlin">Kotlin</option>
+<option value="Go">Go</option>
+<option value="PHP">PHP</option>
+<option value="Swift">Swift</option>
+</select></td><td>
+<button onclick="on()"id="button">SEARCH</button></td></tr></table>
+<br /><br />
+<div id ="result">
+<b>Nothing To Show Here ...</b>
+</div><br />
+<div id="bottom">Follow us:-<br><br />
+</div>
+<script type="text/javascript">
+window.onload = function(){
+ setTimeout(function(){
+   document.getElementById("load").style.visibility="hidden";
+ }, 3000);
+}
+function on() {
+    // body...
+    var y = document.getElementById('result');
+    var x = document.getElementById('text_1');
+    y.style.display="block";
+    switch(x.value){
+case "Python":
+y.innerHTML = "<h2>Python</h2><p align='center'><img src='https://dl.dropbox.com/s/svf45t16so4nwtl/python_logo_and_wordmark.svg.png'width='200px'height='100px'></p><b>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</b><hr><table><tr><td id='td'>Designed By</td><td id='td_a'>Guido Van Rossum</td></tr><tr><td id='td'>Developer</td><td id='td_a'>Python Software Foundation</td></tr><tr><td id='td'>First Appeared</td><td id='td_a'>20 February,1991</td></tr><tr><td id='td'>OS</td><td id='td_a'>Windows,Linux/UNIX,macOS and more</td></tr><tr><td id='td'>Filename Extensions</td><td id='td_a'>.py, .pyi, .pyc, .pyd, .pyo (prior to 3.5), .pyw, .pyz (since 3.5)</td></tr><tr><td id='td'>Website</td><td id='td_a'>www.python.org</td></tr></table><h3>Uses:-</h3><ul><b><li>Python can be used on a server to create web applications.</li><li>Python can be used alongside software to create workflows.</li><li>Python can connect to database systems.It can also read and modify files.</li><li>Python can be used to handle big data and perform complex mathematics.</li><li>Python can be used for rapid prototyping, or for production-ready software development.</li></b></ul><h3>Advantages of using Python:-</h3><ul><li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li><li>Python has a simple syntax similar to the English language.</li><li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li><li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li><li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li></ul>";
+break
+case "JavaScript":
+y.innerHTML = "<h2>JavaScript</h2><p align='center'><img src='https://dl.dropbox.com/s/7fh13f5kg3kd4fl/image.png'width='100px'height='100px'></p><b>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</b>";
+break
+case "R":
+y.innerHTML ="<h2>R</h2><p align='center'><img src='https://dl.dropbox.com/s/jbhalutgx8767th/r_logo.svg.png'width='100px'height='100px'></p><b>R is a programming language and free software environment for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. It is widely used among statisticians and data miners for developing statistical software and data analysis. Polls, data mining surveys, and studies of scholarly literature databases show substantial increases in R's popularity; since August 2021, R ranks 14th in the TIOBE index, a measure of popularity of programming languages.</b>";
+break
+case "C++":
+y.innerHTML ="<h2>C++</h2><p align='center'><img src='https://dl.dropbox.com/s/b3gk0s534nou1vo/180px-iso_c%2B%2B_logo.svg.png'width='100px'height='100px'></p><b>C++ is a general-purpose programming language as an extension of the C programming language, or 'C with Classes'. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.</b>";
+break
+case "Java":
+y.innerHTML ="<h2>JAVA</h2><p align='center'><img src='https://dl.dropbox.com/s/tnmumd2uqrwj4j8/java_programming_language_logo.svg.png'width='50px'height='100px'></p><b>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.</b>";
+break
+case "Ruby":
+y.innerHTML ="<h2>Ruby</h2><p align='center'><img src='https://dl.dropbox.com/s/qiiyaoijrgs6qzc/96px-ruby_logo.svg.png'width='100px'height='100px'></p><b>Ruby is an interpreted, high-level, general-purpose programming language.Ruby is dynamically typed and uses garbage collection and just-in-time compilation. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, BASIC, and Lisp.</b>";
+break
+case "C#":
+y.innerHTML ="<h2>C#</h2><p align='center'><img src='https://dl.dropbox.com/s/vgzn8pvmlx8cf79/c-sharp-768x432.webp'width='200px'height='100px'></p><b>C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.</b>";
+break
+case "C":
+y.innerHTML ="<h2>C</h2><p align='center'><img src='https://dl.dropbox.com/s/bscbgy2rp71gqdd/c_programming_language.svg.png'width='100px'height='100px'></p><b>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.</b>";
+break
+case "Kotlin":
+y.innerHTML ="<h2>Kotlin</h2><p align='center'><img src='https://dl.dropbox.com/s/8v7q9l9dzr0thq1/kotlin_logo_2021.svg.png'width='200px'height='70px'style='background:white;'></p><b>Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React) or native code (via LLVM); e.g., for native iOS apps sharing business logic with Android apps. Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.</b>";
+break
+case "PHP":
+y.innerHTML ="<h2>PHP</h2><p align='center'><img src='https://dl.dropbox.com/s/egabww7ar5pefpf/180px-php-logo.svg.png'width='100px'height='100px'></p><b>PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.</b>";
+break
+case "Go":
+y.innerHTML ="<h2>Go</h2><p align='center'><img src='https://dl.dropbox.com/s/h4dljt9wvcoa6p1/322px-go_logo_blue.svg.png'width='200px'height='100px'></p><b>Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency. The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go</b>";
+break
+case "Swift":
+y.innerHTML ="<h2>Swift</h2><p align='center'><img src='https://dl.dropbox.com/s/9ouj6nu4e0uiy8r/screenshot_2021-09-10-13-30-18-13.jpg'width='100px'height='100px'></p><b>Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community. First released in 2014, Swift was developed as a replacement for Apple's earlier programming language Objective-C, as Objective-C had been largely unchanged since the early 1980s and lacked modern language features. Swift works with Apple's Cocoa and Cocoa Touch frameworks, and a key aspect of Swift's design was the ability to interoperate with the huge body of existing Objective-C code developed for Apple products over the previous decades. It is built with the open source LLVM compiler framework and has been included in Xcode since version 6, released in 2014. On Apple platforms, it uses the Objective-C runtime library which allows C, Objective-C, C++ and Swift code to run within one program.</b>";
+break
+default:
+alert("Not Defined")
+    }
+  
+}
+
+</script>
+</body>
+</html>
