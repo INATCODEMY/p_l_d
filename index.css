@@ -1,12 +1,9 @@
-#load{
-    visibility:;
-}
-
 body{
-    user-select:none;    background-image:url("https://dl.dropbox.com/s/016um864cmkfrnb/img_20210910_131117.jpg");
-    background-size:100% 100%;
-    background-repeat:no-repeat ;
-    background-attachment:fixed;
+    user-select:none;   
+    background:rgb(0,0,25);
+    overflow-y:scroll;
+    color:white;
+    font-size:16px;
 }
 #result{
 display:none;
@@ -15,9 +12,24 @@ display:none;
     width:90%;
     backdrop-filter:blur(20px);
     padding:10px;
-    box-shadow:5px 5px 20px 5px cyan;
+    box-shadow:5px 5px 20px 5px grey;
     font-size: 22px;
-    color:cyan;
-    height:500px;
+    color:white;
+    height:400px;
     overflow-y:scroll ;
+}
+
+#td,#td_a{
+    width:50%;
+    margin:auto 5px;
+    font-size:18px;
+    border-bottom:2px solid white;
+}
+#bottom{
+    background-color:white;
+    color:black;
+    bottom:0;
+    width:100%;
+    left:0;
+    position:fixed;
 }
