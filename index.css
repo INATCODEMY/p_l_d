@@ -3,7 +3,7 @@ body{
     background:rgb(0,0,25);
     overflow-y:scroll;
     color:white;
-    font-size:22px;
+    font-size:medium;
     font-weight:bold;
 }
 #result{
@@ -14,7 +14,7 @@ display:none;
     backdrop-filter:blur(20px);
     padding:10px;
     box-shadow:5px 5px 20px 5px grey;
-    font-size: 22px;
+    font-size: medium;
     color:white;
     height:400px;
     overflow-y:scroll ;
