@@ -24,8 +24,7 @@ display:none;
 }
 #td,#td_a{
     width:50%;
-    margin:auto 5px;
-    font-size:22px;
+    font-size: medium;
     border-bottom:2px solid white;
 }
 #bottom{
