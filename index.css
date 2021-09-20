@@ -43,7 +43,7 @@ display:none;
     #pp{
         display:block ;
     }
-@media screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     #pimg{
         float: left;
     }
