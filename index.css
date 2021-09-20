@@ -45,11 +45,10 @@ display:none;
     }
 @media only screen and (min-width: 700px) {
     #pimg{
-        display:inline;
         float: left;
     }
     #pp{
-        display:inline-block ;
+        display:block ;
         font-size: x-large;
     }
 }
